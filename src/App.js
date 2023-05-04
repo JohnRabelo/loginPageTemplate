@@ -1,13 +1,14 @@
 import Modal from './components/Modal';
 import Backdrop from './components/Backdrop';
 
+
+
 function App() {
+
   return (
     <div>
       <div>
-          <p>
-            A new login page template is coming this week!
-          </p>
+          <button  >New form</button>
       </div>
       <Modal />
       <Backdrop />
