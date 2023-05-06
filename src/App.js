@@ -10,6 +10,7 @@ function App() {
       <div>
           <button  >New form</button>
           <p> This page is under construction</p>
+          <p>Project by J Rabelo</p>
       </div>
       <Modal />
       <Backdrop />
