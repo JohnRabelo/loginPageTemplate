@@ -1,6 +1,36 @@
-button{
-    margin-left: 10px ;
-    padding: 10px;
-    width: 100px;
-    height: 40px;
-;}
+.modal {
+    display: flex;
+    justify-content: center;
+  }
+
+.modalBox{
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+background-color: white;
+padding: 10px;
+text-align: center;
+width: 80vw;
+z-index: 2;
+}
+
+.modalBox button{
+    margin: 10px;
+}
+
+.modalBox p{
+    font-size: 20px;
+    color: black;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+a{
+    text-decoration: none;   
+    color: #064985;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #064985;
+}

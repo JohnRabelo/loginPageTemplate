@@ -1,0 +1,135 @@
+@keyframes smoothAppear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.formOrganiser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    background-color: #064985;
+    color:wheat;
+    margin-top: 10vh;
+    margin-bottom: 20px;
+    padding: 4px;
+    animation-name: smoothAppear;
+    animation-duration: 2s;
+}
+
+.questionOrganiser{
+    width: 80vw;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    color:aliceblue;
+    text-align: center;
+}
+
+.evalCategory{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.optionsOrganiser{
+    display: flex;
+}
+
+.optOrg{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.optOrg label{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.catgLayout{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: wheat;
+}
+
+.customRadioBtn{
+    width: 25px;
+    height: 25px;
+    border: 2px solid wheat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark{
+    display: inline-block;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    border-radius: 50%;
+    background-color: wheat;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.customRadioBtn input{
+    display: none;
+}
+
+.customRadioBtn input:checked + .checkmark {
+    opacity: 1;
+}
+
+.sbmt{
+    background-color: white;
+    border: 0;
+    color: #064985;
+    font-weight: 600;
+    border: 2px solid #888 ;
+    border-radius: 10px;
+    padding: 10px;
+    width: 140px;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 200px) and (max-width: 1240px) {
+    .formOrganiser{
+        margin-top: 6vh;
+        height: 1400px;
+    }
+
+    .optionsOrganiser{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .evalCategory{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+}

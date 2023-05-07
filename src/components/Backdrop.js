@@ -1,5 +1,7 @@
+import bckdpcl from './Backdrop.module.css'
+
 function Backdrop(){
-    return <div className='backdrop'/>
+    return <div className={bckdpcl.backdrop}/>
 }
 
 export default Backdrop
